@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+@font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: codropsicons;
+    src: url(../fonts/codropsicons/codropsicons.eot);
+    src: url(../fonts/codropsicons/codropsicons.eot?#iefix) format('embedded-opentype'), url(../fonts/codropsicons/codropsicons.woff) format('woff'), url(../fonts/codropsicons/codropsicons.ttf) format('truetype'), url(../fonts/codropsicons/codropsicons.svg#codropsicons) format('svg')
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: '';
+    display: table
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.container,
+body,
+html {
+    height: 100%
+}
+
+body {
+    background-image: linear-gradient(#c1e4e1 8%, #fff1 50%);
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: Raleway, Arial, sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
+    min-height: 590px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+a {
+    color: rgba(0, 0, 0, .3);
+    text-decoration: none;
+    outline: 0
+}
+
+a:focus,
+a:hover {
+    color: #fff
+}
+
+.codrops-top {
+    margin-top: 1em
+}
+
+.codrops-top a {
+    font-size: .69em;
+    padding: 0 .25em;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em
+}
+
+.related {
+    font-weight: 700;
+    text-align: center;
+    padding: 5em 0;
+    display: none;
+    background: #fff;
+    color: rgba(0, 0, 0, .3)
+}
+
+.overview .related {
+    display: block
+}
+
+.related>a {
+    border: 3px solid #000;
+    border-color: initial;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 25px
+}
+
+.related>a:focus,
+.related>a:hover {
+    color: rgba(0, 0, 0, .5)
+}
+
+.related a img {
+    max-width: 100%;
+    opacity: .8
+}
+
+.related a:active img,
+.related a:hover img {
+    opacity: 1
+}
+
+.related a h3 {
+    margin: 0;
+    padding: .5em 0 .3em;
+    max-width: 300px;
+    text-align: left
+}

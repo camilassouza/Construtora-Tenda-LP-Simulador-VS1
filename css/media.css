@@ -1,0 +1,153 @@
+@media (max-width:700px) {
+    .descubraseucredito {
+        font-size: 20px;
+        width: 125%
+    }
+
+    .modal-content{
+            height: 185% !important;
+    }
+    .content-about {
+        text-align: left!important;
+        color: #fff!important;
+        margin-left: 4%!important;
+        width: 90%!important;
+        height: 95%!important;
+        padding: 5%!important
+    }
+    .subtitlecentermobile {
+        font-size: 20px;
+        width: 120%;
+        padding: 0!important;
+        margin: 0!important
+    }
+    .subtitle {
+        font-size: 15px;
+        width: 125%
+    }
+    .garotosimula {
+        margin-left: 25px;
+        width: 100px!important
+    }
+    .selecioneestado {
+        width: 120%
+    }
+    .widthmobile {
+        width: 120%
+    }
+    .imgdate {
+        width: 100%
+    }
+    .datanascimento {
+        width: 120%;
+        padding: 0!important;
+        font-size: 20px
+    }
+    .dateselect {
+        width: 100%;
+        height: 50px;
+        display: unset;
+        flex-direction: row;
+        justify-content: center!important;
+        align-items: center
+    }
+    .dateselect2 {
+        width: 120%
+    }
+    .subtitle2 {
+        width: 120%;
+        margin: 0;
+        padding: 0!important
+    }
+    .subtitle4 {
+        width: 120%!important;
+        font-size: 12px!important;
+        padding: 0!important
+    }
+    img label {
+        width: 120%
+    }
+    .imgmoedas {
+        width: 120%
+    }
+    .valorwidth {
+        /*width: 120%!important*/
+    }
+    .subtitlenew {
+        width: 120%!important;
+        font-size: 13px
+    }
+    .subtitle3 {
+        color: #4a4a4a;
+        font-size: 15px;
+        text-align: center;
+        padding: 0!important;
+        font-weight: 100;
+        width: 120%
+    }
+    .imgmoedinha {
+        padding: 0!important
+    }
+    .containercenter2 {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        margin-bottom: -25px
+    }
+    .fs-form-full .fs-fields>li label[data-info]::after {
+        display: none!important
+    }
+    .enviarresp {
+        margin-top: 50%;
+        width: 120%
+    }
+    .containerestado {
+        display: none
+    }
+    .creddispo1 {
+        font-size: 20px
+    }
+    .creddispo2 {
+        font-size: 32px;
+        line-height: 20px;
+        font-weight: 700
+    }
+    .homemcoffee {
+        padding: 5%
+    }
+    .extrato {
+        font-size: 12px
+    }
+    .popup-content {
+        top: 200%!important
+    }
+    .popup-overlay {
+        height: 400%
+    }
+
+    .js .fs-form-full .fs-fields>li {
+    position: absolute;
+    width: 110%;
+    color: #e02020;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    top: 40px;
+}
+
+.file-upload .image-box{
+    height: 150px !important: 
+}
+}
+
+@media (min-width:700px) {
+    .containerestado1 {
+        display: none!important
+    }
+}
+
+@media screen and (min-width:600px) {
+    div.example {
+        display: none
+    }
+}
