@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>C9A25C3C-FDFF-409E-990C-72C6FAFA7194</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="12_Envio_Comprovante-residencia" transform="translate(-489.000000, -322.000000)" stroke="#ED1C24" stroke-width="2">
+            <g id="Dialogo_motivos">
+                <g id="file-text-on" transform="translate(490.000000, 323.000000)">
+                    <path d="M10,0 L2,0 C0.8954305,0 0,0.8954305 0,2 L0,18 C0,19.1045695 0.8954305,20 2,20 L14,20 C15.1045695,20 16,19.1045695 16,18 L16,6 L10,0 Z" id="Shape" fill="#FFEF81"></path>
+                    <polyline id="Shape" points="10 0 10 6 16 6"></polyline>
+                    <path d="M12,11 L4,11" id="Shape"></path>
+                    <path d="M12,15 L4,15" id="Shape"></path>
+                    <polyline id="Shape" points="6 7 5 7 4 7"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
