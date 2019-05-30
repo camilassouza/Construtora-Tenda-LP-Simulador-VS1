@@ -4,10 +4,10 @@
 }
 
 
-@media  (max-width:320px) {
+@media  (max-width: 320px) {
     img {
         max-width: 100%;
-        max-height: 260px !important;
+        max-height: 220px !important;
     }
 
     #about {
@@ -19,9 +19,11 @@
 
         .content-about {
 
-                max-height: 340px;
+                max-height: 282px;
         }
-     
+        section {
+            min-height: 70vh !important;
+        }
 }
 
 
