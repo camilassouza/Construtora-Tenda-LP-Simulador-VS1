@@ -28,6 +28,12 @@
 
 
 
+@media  (max-width: 540px) {
+    img {
+        max-height: 310px !important;
+    }
+}
+
 
 body {
     font-size: 1rem;
