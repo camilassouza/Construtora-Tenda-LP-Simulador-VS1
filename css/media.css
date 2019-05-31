@@ -23,6 +23,15 @@
         font-family: Roboto;
         font-weight: 500 !important;
     }
+
+    
+.subtitle3 {
+    color: #4a4a4a;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 100
+}
     
 
     .fs-message-error {
