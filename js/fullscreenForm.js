@@ -115,7 +115,7 @@
 		this.ctrls = createElement( 'div', { cName : 'fs-controls', appendTo : this.el } );
 
 		// continue button (jump to next field)
-		this.ctrlContinue = createElement( 'button', { cName : 'fs-continue', inner : 'Continuar', appendTo : this.ctrls } );
+		this.ctrlContinue = createElement( 'button', { cName : 'fs-continue', inner : '', appendTo : this.ctrls } );
 		this._showCtrl( this.ctrlContinue );
 
 		// 		this.ctrlContinue1 = createElement( 'button', { cName : 'fs-continue1', inner : 'Continuar1', appendTo : this.ctrls } );
