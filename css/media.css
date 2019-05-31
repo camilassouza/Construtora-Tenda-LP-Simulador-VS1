@@ -12,6 +12,9 @@
 
 @media (max-width:700px) {
 
+        img {
+            max-height: 350px !important;}
+     
 
     .subtitle {
         color: #4a4a4a;
