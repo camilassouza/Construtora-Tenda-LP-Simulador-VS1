@@ -57,8 +57,11 @@ a .btnenviarrespostas {
     color: #4a4a4a;
     font-size: 16px;
     text-align: center;
-    padding: 15px;
-    font-weight: 100!important
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 100!important;
+    font-family: Roboto;
+    font-weight: 500 !important;
 }
 
 .subtitle1 {
@@ -278,7 +281,8 @@ button.fs-continue {
 .fs-fields>li label.fs-field-label {
     display: inline-block;
     padding: 0 5px 1em 0;
-    font-weight: 700;
+    font-family: Roboto;
+    font-weight: 500;
     pointer-events: none
 }
 
@@ -297,7 +301,6 @@ button.fs-continue {
     font-weight: 700;
     font-style: italic;
     font-size: 14px;
-    font-family: Georgia, serif;
     line-height: 20px;
     cursor: pointer;
     pointer-events: auto
@@ -394,7 +397,6 @@ button.fs-continue {
     text-align: center;
     font-weight: 700;
     font-size: 50%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 .fs-fields>li .fs-radio-custom span label {
@@ -943,12 +945,12 @@ input[type=text]::-ms-clear {
     button.fs-continue {
         right: 15px;
         bottom: 15px;
-        margin: 0;
-        padding: 50px 0 0 50px;
+        margin: 0 !important;
+        padding: 40px 0 0 0px;
         width: 50px;
         height: 50px;
         border-radius: 50%;
-        font-size: 2em
+        font-size: 10px;
     }
     button.fs-continue::before {
         position: absolute;

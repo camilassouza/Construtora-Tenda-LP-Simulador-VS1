@@ -4,17 +4,26 @@
     margin-top: 10px;
 }
 
-.subtitle3 a {
-    color: #4a4a4a;
-    font-size: 0.6em;
+
+.fs-fields input:invalid{
     text-align: center;
-    padding: 0;
-    width: 120%;
-    font-weight: normal !important; 
-    font-family: Roboto;
 }
 
+
 @media (max-width:700px) {
+
+
+    .subtitle {
+        color: #4a4a4a;
+        font-size: 16px;
+        text-align: center;
+        padding: 5px;
+        font-size: 12px!important;
+        font-weight: 100!important;
+        font-family: Roboto;
+        font-weight: 500 !important;
+    }
+    
 
     .fs-message-error {
         bottom: 0;
@@ -28,6 +37,16 @@
         font-family: Roboto;
         font-size: 10px;
         font-weight: 100;
+    }
+
+    .subtitle3 a {
+        color: #4a4a4a;
+        font-size: 0.6em;
+        text-align: center;
+        padding: 0;
+        width: 120%;
+        font-weight: normal !important; 
+        font-family: Roboto;
     }
 
     .fs-title {
