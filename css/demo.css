@@ -31,7 +31,9 @@ html {
 }
 
 body {
+ 
     background-image: linear-gradient(#c1e4e1 8%, #fff1 50%);
+    margin: 1px 0 -50px 0;
     color: #fff;
     font-weight: 400;
     font-size: 1em;
