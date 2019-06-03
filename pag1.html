@@ -30,8 +30,7 @@
 		window.parent.postMessage("resize", "*");
 		}
 	</script> 
-	<body style=" font-family: Roboto;
-		">
+	<body>
 		<!-- PAGE LOADER --> 
 		<div class="pageloader">
 			<div id="loader">
@@ -193,8 +192,7 @@
 										<p>Enviar imagem</p>
 										<img src="" alt=""> 
 									</div>
-									<div class="controls" style="display: none;
-										"> <input type="file" name="contact_image_1"> </div>
+									<div class="controls" style="display: none;"> <input type="file" name="contact_image_1"> </div>
 								</div>
 							</div>
 							<div class="col-lg-12 col-md-12">
@@ -322,24 +320,24 @@
 								<div class="col-lg-12 col-md-12">
 									<p class="enviefoto1">Digite o Nº do seu celular, e-mail e CPF para receber o resultado da sua análise</p>
 								</div>
-								<div class="col-lg-4">
-									<p>E-mail</p>
+								<div class="col-lg-12">
+									<p class="dados">E-mail</p>
 									<input style="padding: 5%;
 										width: 90%;
 										height: 50px;
 										margin: 1px;
 										" type="email" name="email" placeholder="E-mail"><br> 
 								</div>
-								<div class="col-lg-4">
-									<p>CPF</p>
+								<div class="col-lg-12">
+									<p class="dados">CPF</p>
 									<input style="padding: 5%;
 										width: 90%;
 										height: 50px;
 										margin: 1px;
 										" type="text" inputmode="numeric" maxlength="11" name="CPF" value="" placeholder="xxx.xxx.xxx-xx"><br> 
 								</div>
-								<div class="col-lg-4">
-									<p>Telefone</p>
+								<div class="col-lg-12">
+									<p class="dados">Telefone</p>
 									<input style="padding: 5%;
 										width: 90%;
 										height: 50px;
@@ -469,6 +467,17 @@
 		}
 	</script> 
 	<style>
+
+		body{
+			font-family: Roboto !important;
+		}
+
+		.dados{
+			margin-bottom: 0px;
+			margin-top: 15px;
+			line-height: 30px !important;
+		}
+
 		.btn1{
 			text-align: right;  padding: 15px;	
 	
