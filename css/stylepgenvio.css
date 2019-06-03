@@ -339,7 +339,9 @@ div[class^=curve_] {
 
 .whatsapptext {
     margin: 0!important;
-    font-weight: 400
+    font-weight: 400;
+    font-family: Roboto;
+
 }
 
 .textchat {
